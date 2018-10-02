@@ -9,7 +9,7 @@ name: Archit Kansal
 description: Software Engineer at Arcesium
 
 # Pic URL
-avatar: architkansal.github.io/images/myPic.png # specified absolutely in default.html. Ensure to change at both places
+avatar: https://architkansal.github.io/images/myPic.png
 
 #
 # Other/Optional Flags
