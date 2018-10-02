@@ -6,8 +6,8 @@ permalink: /about/
 img: 
 --- 
 
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/about.css" />
 <link rel="stylesheet" href="https://architkansal.github.io/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/about.css" />
 <!-- <script src="https://architkansal.github.io/bootstrap/js/bootstrap.min.js"></script> -->
 <div class="row">
 <div class="col-sm-6">
@@ -65,7 +65,7 @@ img:
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2017</span>
-<h6 class="uppercase mb0"></h6>
+<h6 class="uppercase mb0">Banyan Nation</h6>
 <span class="fade-half inline-block mb24">Software Engineering & IOT Intern </span>
 </div>
 <hr class="fade-3-4">
