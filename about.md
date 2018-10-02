@@ -7,7 +7,8 @@ permalink: /about/
 ---
 
 <link rel="stylesheet" type="text/css" href="https://architkansal.github.io/about.css" />
-
+<link rel="stylesheet" href="https://architkansal.github.io/bootstrap/css/bootstrap.min.css">
+<script src="https://architkansal.github.io/bootstrap/js/bootstrap.min.js"></script>
 <div class="row">
 <div class="col-md-6 col-sm-10">
 <h4 class="uppercase mb40 mb-xs-24"> Work Experience</h4>
@@ -21,7 +22,7 @@ permalink: /about/
 <div class="col-md-6 col-sm-10">
 <div>
 <div class="col-md-2">
-<img src="images/arcesium.png" alt="Arcesium India">
+<img src="https://architkansal.github.io/images/arcesium.png" alt="Arcesium India">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2018</span>
@@ -32,7 +33,7 @@ permalink: /about/
 </div>
 <div>
 <div class="col-md-2">
-<img src="images/arcesium.png" alt="Arcesium India">
+<img src="https://architkansal.github.io/images/arcesium.png" alt="Arcesium India">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2017</span>
@@ -47,7 +48,7 @@ permalink: /about/
 <div class="col-md-6 col-sm-10">
 <div>
 <div class="col-md-2">
-<img src="images/nitw.png" alt="National Institute of Technology, Warangal">
+<img src="https://architkansal.github.io/images/nitw.png" alt="National Institute of Technology Warangal">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2014 - 2018</span>
@@ -61,4 +62,4 @@ permalink: /about/
 
 
 
-[archit.knsl@gmail.com](mailto:archit.knsl@gmail.com)
+<!-- [archit.knsl@gmail.com](mailto:archit.knsl@gmail.com) -->
