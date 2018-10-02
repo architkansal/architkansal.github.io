@@ -34,7 +34,7 @@ footer-links:
 
 # Enter Disqus shortname (not username) to enable commenting on posts
 # find the shortname on the Settings page of your Disqus account
-disqus:
+disqus: architkansal
 
 # Enter Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
