@@ -283,6 +283,47 @@ footer {
   text-align: center;
 }
 
+.uppercase {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h4.uppercase{
+  letter-spacing: 3px;
+  margin-right: -3px;
+}
+
+h6.uppercase, .h6-u {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  color: #292929;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: raleway,helvetica neue,Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, pre, table, blockquote, input, button, select, textarea {
+  margin-bottom: 24px;
+}
+
+h6, .h6 {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
