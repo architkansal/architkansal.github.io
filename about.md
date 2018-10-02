@@ -6,7 +6,7 @@ permalink: /about/
 # img: 
 ---
 
-<link rel="stylesheet" type="text/css" href="about.css" />
+<link rel="stylesheet" type="text/css" href="https://architkansal.github.io/about.css" />
 
 <div class="row">
     <div class="col-md-6 col-sm-10">
