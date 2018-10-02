@@ -37,7 +37,7 @@ footer-links:
 disqus: architkansal
 
 # Enter Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-126809264-1
 
 # website URL
 # Used for Sitemap.xml and RSS feed
