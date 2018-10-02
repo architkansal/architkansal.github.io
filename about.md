@@ -6,8 +6,6 @@ permalink: /about/
 img: 
 --- 
 
-<link rel="stylesheet" href="https://architkansal.github.io/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/about.css" />
 <!-- <script src="https://architkansal.github.io/bootstrap/js/bootstrap.min.js"></script> -->
 <div class="row">
 <div class="col-sm-6">

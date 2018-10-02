@@ -4,15 +4,6 @@
 @import "reset";
 @import "variables";
 
-a {
-    color: $blue;
-    text-decoration: none;
-      cursor: pointer;
-    &:hover, &:active {
-      color: $blue;
-    }
-  }
-
 h4.uppercase{
 letter-spacing: 3px;
 margin-right: -3px;
