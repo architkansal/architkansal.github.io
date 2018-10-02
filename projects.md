@@ -44,7 +44,7 @@ img:
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2017</span>
 <h6 class="uppercase mb0">Medisurf - Android App & Web Analytics Portal</h6>
-<a href="{{ site.baseurl }}/medisurf"> <span class="fade-1-4 inline-block mb24"> Details </span> </a>
+<a href="{{ site.baseurl }}/projects/medisurf"> <span class="fade-1-4 inline-block mb24"> Details </span> </a>
 </div>
 <hr class="fade-3-4">
 </div>
