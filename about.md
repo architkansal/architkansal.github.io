@@ -4,23 +4,25 @@ title: About Me
 description: A brief introduction about who I am, my interests and what I am good at. 
 permalink: /about/ 
 # img: 
----
+--- 
 
-<link rel="stylesheet" type="text/css" href="https://architkansal.github.io/about.css" />
+<link rel="stylesheet" type="text/css" href="https://architkansal.github.io/about.scss" />
 <link rel="stylesheet" href="https://architkansal.github.io/bootstrap/css/bootstrap.min.css">
 <script src="https://architkansal.github.io/bootstrap/js/bootstrap.min.js"></script>
 <div class="row">
-<div class="col-md-6 col-sm-10">
+<div class="col-sm-6">
 <h4 class="uppercase mb40 mb-xs-24"> Work Experience</h4>
 </div>
-<div class="col-md-6 col-sm-10">
+<div class="col-sm-6">
 <h4 class="uppercase mb40 mb-xs-24"> Education</h4>
 </div>
 </div>
 
 <div class="row">
+
 <div class="col-md-6 col-sm-10">
-<div>
+
+<div class="row">
 <div class="col-md-2">
 <img src="https://architkansal.github.io/images/arcesium.png" alt="Arcesium India">
 </div>
@@ -31,7 +33,8 @@ permalink: /about/
 </div>
 <hr class="fade-3-4">
 </div>
-<div>
+
+<div div class="row">
 <div class="col-md-2">
 <img src="https://architkansal.github.io/images/arcesium.png" alt="Arcesium India">
 </div>
@@ -46,7 +49,8 @@ permalink: /about/
 </div>
 
 <div class="col-md-6 col-sm-10">
-<div>
+
+<div div class="row">
 <div class="col-md-2">
 <img src="https://architkansal.github.io/images/nitw.png" alt="National Institute of Technology Warangal">
 </div>
@@ -57,7 +61,9 @@ permalink: /about/
 </div>
 <hr class="fade-3-4">
 </div>
+
 </div>
+
 </div>
 
 
