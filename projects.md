@@ -6,9 +6,7 @@ permalink: /projects/
 img: 
 --- 
 
-<link rel="stylesheet" href="https://architkansal.github.io/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/projects.css" />
-<!-- <script src="https://architkansal.github.io/bootstrap/js/bootstrap.min.js"></script> -->
 <div class="row">
 <div class="col-sm-6">
 <h4 class="uppercase mb40 mb-xs-24"> My Projects</h4>
