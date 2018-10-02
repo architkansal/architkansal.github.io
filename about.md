@@ -6,9 +6,9 @@ permalink: /about/
 # img: 
 --- 
 
-<link rel="stylesheet" type="text/css" href="https://architkansal.github.io/about.scss" />
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/about.css" />
 <link rel="stylesheet" href="https://architkansal.github.io/bootstrap/css/bootstrap.min.css">
-<script src="https://architkansal.github.io/bootstrap/js/bootstrap.min.js"></script>
+<!-- <script src="https://architkansal.github.io/bootstrap/js/bootstrap.min.js"></script> -->
 <div class="row">
 <div class="col-sm-6">
 <h4 class="uppercase mb40 mb-xs-24"> Work Experience</h4>
