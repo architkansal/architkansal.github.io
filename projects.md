@@ -22,9 +22,16 @@ img:
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2017-2018</span>
+<a href="{{ site.baseurl }}/projects/scatternet">
 <h6 class="uppercase mb0">Discriminatory Scatternet Framework For Object Classification</h6>
-<span class="label label-primary">UG Thesis</span>
-<a href="{{ site.baseurl }}/projects/scatternet"> <span class="fade-1-4 inline-block mb24"> Details </span> </a>
+</a>
+<span class="badge badge-primary">UG Thesis</span>
+<span class="badge badge-success">Scattering Networks</span>
+<span class="badge badge-success">Computer Vision</span>
+<span class="badge badge-info">Matlab</span>
+<span class="badge badge-info">Tensorflow</span>
+<br/>
+<a href="{{ site.baseurl }}/projects/scatternet"> <span class=" inline-block mb24"> Read More </span> </a>
 </div>
 <hr class="fade-3-4">
 </div>
@@ -40,8 +47,15 @@ img:
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2017</span>
+<a href="{{ site.baseurl }}/projects/medisurf">
 <h6 class="uppercase mb0">Medisurf - Android App & Web Analytics Portal</h6>
-<a href="{{ site.baseurl }}/projects/medisurf"> <span class="fade-1-4 inline-block mb24"> Details </span> </a>
+</a>    
+<span class="badge badge-primary">INK Makers</span>
+<span class="badge badge-success">Web</span>
+<span class="badge badge-success">Android</span>
+<span class="badge badge-info">Machine Learning</span>
+<span class="badge badge-info">Python</span>
+<a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block mb24"> Read More </span> </a>
 </div>
 <hr class="fade-3-4">
 </div>
