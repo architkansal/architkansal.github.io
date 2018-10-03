@@ -114,7 +114,7 @@ img:
 <img src="https://architkansal.github.io/images/jnv.jpg" alt="Jawahar Navodaya Vidyalaya G.B. Nagar">
 </div>
 <div class="col-md-10">
-<span class="pull-right fade-1-4">2013 - 2014</span>
+<span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2013 - 2014</span>
 <h6 class="uppercase mb0">Jawahar Navodaya Vidyalaya, G.B. Nagar</h6>
 <span class="fade-half inline-block mb24">C.B.S.E. Grade XII</span>
 </div>
@@ -126,7 +126,7 @@ img:
 <img src="https://architkansal.github.io/images/jnv.jpg" alt="Jawahar Navodaya Vidyalaya G.B. Nagar">
 </div>
 <div class="col-md-10">
-<span class="pull-right fade-1-4">2011 - 2012</span>
+<span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2011 - 2012</span>
 <h6 class="uppercase mb0">Jawahar Navodaya Vidyalaya, G.B. Nagar</h6>
 <span class="fade-half inline-block mb24">C.B.S.E. Grade X</span>
 </div>
