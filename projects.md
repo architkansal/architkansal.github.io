@@ -22,9 +22,7 @@ img:
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2017-2018</span>
-<a href="{{ site.baseurl }}/projects/scatternet">
 <h6 class="uppercase mb0">Discriminatory Scatternet Framework For Object Classification</h6>
-</a>
 <span class="badge badge-primary">UG Thesis</span>
 <span class="badge badge-success">Scattering Networks</span>
 <span class="badge badge-success">Computer Vision</span>
@@ -47,9 +45,7 @@ img:
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2017</span>
-<a href="{{ site.baseurl }}/projects/medisurf">
 <h6 class="uppercase mb0">Medisurf - Android App & Web Analytics Portal</h6>
-</a>    
 <span class="badge badge-primary">INK Makers</span>
 <span class="badge badge-success">Web</span>
 <span class="badge badge-success">Android</span>
