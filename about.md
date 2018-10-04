@@ -6,7 +6,7 @@ permalink: /about/
 img: 
 --- 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/about.css" />
-<!-- <script src="https://architkansal.github.io/bootstrap/js/bootstrap.min.js"></script> -->
+<!-- <script src="{{site.baseurl}}/bootstrap/js/bootstrap.min.js"></script> -->
 <div class="row">
 <div class="col-sm-6">
 <h4 class="uppercase mb40 mb-xs-24"> Work Experience</h4>
@@ -22,7 +22,7 @@ img:
 
 <div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/arcesium.png" alt="Arcesium India">
+<img src="{{site.baseurl}}/images/arcesium.png" alt="Arcesium India">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2018</span>
@@ -34,7 +34,7 @@ img:
 
 <div div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/yellowmessenger.png" alt="Yellow Messenger">
+<img src="{{site.baseurl}}/images/yellowmessenger.png" alt="Yellow Messenger">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2017</span>
@@ -46,7 +46,7 @@ img:
 
 <div div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/arcesium.png" alt="Arcesium India">
+<img src="{{site.baseurl}}/images/arcesium.png" alt="Arcesium India">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2017</span>
@@ -59,7 +59,7 @@ img:
 
 <div div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/banyannation.png" alt="Banyan Nation">
+<img src="{{site.baseurl}}/images/banyannation.png" alt="Banyan Nation">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2017</span>
@@ -71,7 +71,7 @@ img:
 
 <div div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/iisc.png" alt="Indian Institute of Science Bangalore">
+<img src="{{site.baseurl}}/images/iisc.png" alt="Indian Institute of Science Bangalore">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2016</span>
@@ -83,7 +83,7 @@ img:
 
 <div div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/yellowmessenger.png" alt="Yellow Messenger">
+<img src="{{site.baseurl}}/images/yellowmessenger.png" alt="Yellow Messenger">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2016</span>
@@ -99,7 +99,7 @@ img:
 
 <div div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/nitw.png" alt="National Institute of Technology Warangal">
+<img src="{{site.baseurl}}/images/nitw.png" alt="National Institute of Technology Warangal">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">2014 - 2018</span>
@@ -111,7 +111,7 @@ img:
 
 <div div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/jnv.jpg" alt="Jawahar Navodaya Vidyalaya G.B. Nagar">
+<img src="{{site.baseurl}}/images/jnv.jpg" alt="Jawahar Navodaya Vidyalaya G.B. Nagar">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2013 - 2014</span>
@@ -123,7 +123,7 @@ img:
 
 <div div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/jnv.jpg" alt="Jawahar Navodaya Vidyalaya G.B. Nagar">
+<img src="{{site.baseurl}}/images/jnv.jpg" alt="Jawahar Navodaya Vidyalaya G.B. Nagar">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2011 - 2012</span>

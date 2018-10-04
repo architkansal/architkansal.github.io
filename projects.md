@@ -9,7 +9,7 @@ img:
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/projects.css" />
 <div class="row">
 <h4 class="uppercase mb40 mb-xs-24"> My Projects - </h4>
-<h6 class="uppercase mb40 mb-xs-24" style="margin-top:auto; margin-bottom:43px;"> &nbsp;&nbsp;&nbsp;&nbsp;I love hacking things up and experimenting with new ideas!</h6>
+<h5 style="letter-spacing:2px; margin-top:auto; margin-bottom:43px;"> &nbsp;&nbsp;&nbsp;&nbsp;I love hacking things up and experimenting with new ideas!</h5>
 </div>
 
 <div class="row">
@@ -18,7 +18,7 @@ img:
 
 <div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/scatternet.png" alt="Discriminatory Scatternet Framework">
+<img src="{{site.baseurl}}/images/scatternet.png" alt="Discriminatory Scatternet Framework">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2017-2018</span>
@@ -41,7 +41,7 @@ img:
 
 <div div class="row">
 <div class="col-md-2">
-<img src="https://architkansal.github.io/images/medisurf-app.png" alt="MediSurf">
+<img src="{{site.baseurl}}/images/medisurf/medisurf-app.png" alt="MediSurf">
 </div>
 <div class="col-md-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2017</span>
