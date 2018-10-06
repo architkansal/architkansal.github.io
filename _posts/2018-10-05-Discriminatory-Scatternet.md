@@ -54,7 +54,7 @@ The classes are Buddha, Lamp, Okapi and Starfish from left to right.
 
 ![Common Templates]({{site.baseurl}}/images/scatternet/common-templates.png "Common Templates")
 
-The figure shows the deformed templates learnt for
+The figure below shows the deformed templates learnt for
 caltech-101 dataset corresponding to one specific training images for two classes. The input
 image resolution is 112x112. The classes are Buddha and Face from left to right.
 
@@ -63,14 +63,14 @@ image resolution is 112x112. The classes are Buddha and Face from left to right.
 ## Stage 2 : Discriminatory Scattering Network
 
 This section details the hand-crafted scattering network termed as, the Discriminatory
-Scattering Network that extracts relatively symmetric translation invariant feature representations from the input signal. We use a DTCWT Scatternet [12] which is a parametric log based improved numerous version of the multi-layer hand-crafted Scattering Networks. Translation invariant features are extracted by the Scatternet using the dual-tree complex
+Scattering Network that extracts relatively symmetric translation invariant feature representations from the input signal. We use a DTCWT Scatternet which is a parametric log based improved numerous version of the multi-layer hand-crafted Scattering Networks. Translation invariant features are extracted by the Scatternet using the dual-tree complex
 wavelet transform (DTCWT).
 
 The scatternet consists of two layers. At the first layer, the input signal x
 is filtered with dual-tree complex wavelets at multiple scales(4) and pre-defined orientations (6) to obtain invariant features. Further, Cascaded wavelet filtering is performed at the second layer separately for foreground object of interest and background clutter that retrieves the high frequency components lost due to smoothing.
 
 In the image below, the first row shows the input images. 2nd row is the corresponding 2nd layer
-layer output for scatternet without manifold separation. The 3rd row is the output of 2nd layer layer for Discriminatory scatternet(with manifold separation).
+layer output for scatternet without manifold separation. The 3rd row is the output of 2nd layer layer for Discriminatory scatternet(with manifold separation). It can clearly be observed that feature space obtained with manifold separation technique is much better suited for classsification by SVM than the feature space obtained without it.
 
 ![L2 Output]({{site.baseurl}}/images/scatternet/l2.png "L2 Output")
 
@@ -102,7 +102,7 @@ followed by hole-filling operation. And then only the pixel values where both th
 box and the modified template have non-zero values are taken to obtain the foreground object
 of interest.
 
-Following image depicts rectangular-intersection based manifold separation
+Below image depicts rectangular-intersection based manifold separation
 technique where each row (from left to right) consists of input image, Layer1 output for
 a specific orientation, deformed template, dilated and hole-filled versions, intersection of
 rectangular template with hole-filled version which finally extracts foreground object of
@@ -117,7 +117,7 @@ hole-filling operation and finally it is eroded to avoid including unnecessary c
 background. The structuring elements and their values are set heuristically for both dilation
 and erosion operations.
 
-Following image depicts dilation-erosion based manifold separation technique
+Below image depicts dilation-erosion based manifold separation technique
 where each row (from top to bottom) consists of dilated,hole-filled and eroded versions
 which are finally used to extract foreground objects of interest in the last row.
 

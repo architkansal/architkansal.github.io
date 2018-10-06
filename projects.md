@@ -32,7 +32,7 @@ img:
 <span class="badge badge-info">Python</span>
 <span class="badge badge-info">AngularJS</span>
 <br/>
-<a href="{{ site.baseurl }}/projects/axl"> <span class=" inline-block mb24"> Read More </span> </a>
+<!-- <a href="{{ site.baseurl }}/projects/axl"> <span class=" inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
 </div>
 <hr class="fade-3-4">
 </div>
@@ -49,7 +49,7 @@ img:
 <span class="badge badge-success">Android</span>
 <span class="badge badge-info">Machine Learning</span>
 <span class="badge badge-info">Python</span>
-<a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block mb24"> Read More </span> </a>
+<a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a>
 </div>
 <hr class="fade-3-4">
 </div>
@@ -65,14 +65,14 @@ img:
 <span class="badge badge-success">Windows Store App</span>
 <span class="badge badge-success">Visual Studio</span>
 <span class="badge badge-info">C#</span>
-<a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block mb24"> Read More </span> </a>
+<!-- <a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
 </div>
 <hr class="fade-3-4">
 </div>
 
 <div div class="row">
 <div class="col-md-2 col-2">
-<img src="{{site.baseurl}}/images/myvision/myvision-8.png" alt="GAP Portal">
+<img src="{{site.baseurl}}/images/gap/8.png" alt="GAP Portal">
 </div>
 <div class="col-md-10 col-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2016</span>
@@ -81,7 +81,7 @@ img:
 <span class="badge badge-success">CodeIgniter</span>
 <span class="badge badge-success">MVC Framework</span>
 <span class="badge badge-info">PHP</span>
-<a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block mb24"> Read More </span> </a>
+<!-- <a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
 </div>
 <hr class="fade-3-4">
 </div>
@@ -93,7 +93,7 @@ img:
 
 <div class="row">
 <div class="col-md-2 col-2">
-<img src="{{site.baseurl}}/images/scatternet.png" alt="Discriminatory Scatternet Framework">
+<img src="{{site.baseurl}}/images/scatternet/scatnet-tree.png" alt="Discriminatory Scatternet Framework">
 </div>
 <div class="col-md-10 col-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2017-2018</span>
@@ -104,7 +104,7 @@ img:
 <span class="badge badge-info">MATLAB</span>
 <span class="badge badge-info">Tensorflow</span>
 <br/>
-<a href="{{ site.baseurl }}/projects/scatternet"> <span class=" inline-block mb24"> Read More </span> </a>
+<!-- <a href="{{ site.baseurl }}/projects/scatternet"> <span class=" inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
 </div>
 <hr class="fade-3-4">
 </div>
@@ -121,7 +121,7 @@ img:
 <span class="badge badge-success">Active Learning</span>
 <span class="badge badge-info">Django</span>
 <span class="badge badge-info">Dedupe</span>
-<a href="{{ site.baseurl }}/projects/dedupe"> <span class="inline-block mb24"> Read More </span> </a>
+<!-- <a href="{{ site.baseurl }}/projects/dedupe"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
 </div>
 <hr class="fade-3-4">
 </div>
@@ -138,16 +138,11 @@ img:
 <span class="badge badge-success">Web Hosting</span>
 <span class="badge badge-info">PHP</span>
 <span class="badge badge-info">Java</span>
-<a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block mb24"> Read More </span> </a>
+<!-- <a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
 </div>
 <hr class="fade-3-4">
 </div>
 
 </div>
 
-
 </div>
-
-
-
-
