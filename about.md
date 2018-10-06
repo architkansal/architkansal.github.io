@@ -1,10 +1,10 @@
 --- 
 layout: page 
-title: 
-description: 
+title:
+description:
 permalink: /about/ 
 img: 
----
+--- 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/about.css" />
 <!-- <script src="{{site.baseurl}}/bootstrap/js/bootstrap.min.js"></script> -->
 <div class="row">
