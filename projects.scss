@@ -1,6 +1,28 @@
 ---
 ---
 
+.badge-primary {
+    // color: black;
+    // border: 2px solid blue;
+    // background-color: transparent!important;
+    opacity: 0.50;
+}
+
+
+.badge-success {
+    // color: black;
+    // border: 2px solid green;
+    // background-color: transparent!important;
+    opacity: 0.50;
+}
+
+.badge-info {
+    // color: black;
+    // border: 2px solid orange;
+    // background-color: transparent!important;
+    opacity: 0.50;
+}
+
 h4.uppercase{
 letter-spacing: 3px;
 margin-right: -3px;
@@ -9,7 +31,7 @@ margin-right: -3px;
 .mb40 {
     margin-bottom: 40px;
 }
-.uppercase {
+.uppercase {    
     font-weight: 400;
     text-transform: uppercase;
 }

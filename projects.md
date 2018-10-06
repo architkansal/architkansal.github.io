@@ -99,7 +99,7 @@ img:
 <span class="badge badge-primary">UG Thesis</span>
 <span class="badge badge-success">Scattering Networks</span>
 <span class="badge badge-success">Computer Vision</span>
-<span class="badge badge-info">Matlab</span>
+<span class="badge badge-info">MATLAB</span>
 <span class="badge badge-info">Tensorflow</span>
 <br/>
 <a href="{{ site.baseurl }}/projects/scatternet"> <span class=" inline-block mb24"> Read More </span> </a>
