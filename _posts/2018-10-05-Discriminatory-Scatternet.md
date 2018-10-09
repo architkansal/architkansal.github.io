@@ -31,9 +31,9 @@ In the first stage, we learn templates for each object class which will be later
 In the second stage of the network, a two-layer DTCWT scatternet is used. We filter the input at first layer of scatternet, then we apply manifold separation on this using the templates learned in first stage and further pass the filtered foreground and background manifolds to the second layer of scatternet. Finally, we merge the two manifolds after filtering them in the second layer. And the output from both the first layer and merged manifolds are passed to support vector machine for classification.
 
 Illustration below shows the input image (x) of size 112 × 112. Image representations
-at m = 1 are obtained using DTCWT filters at 4 scales and 6 orientations. Next the Manifold
+at m = 1 layer (first layer) are obtained using DTCWT filters at 4 scales and 6 orientations. Next the Manifold
 separation using deformed templates is carried out and the foreground and background
-manifolds are, separately, further passed through m = 2 layer and then merged to obtained
+manifolds are, separately, further passed through m = 2 layer (second layer) (In the second layer, each of the 6 orientations are further filtered at each scale upto the coarsest scale as shown the the diagram, e.g. for j=1 in first layer we have 112x112x6 as output so in the second layer each of six 112x112 is used to get 56x56x6, 28x28x6, 14x14x6 because the coarsest scale in the first layer is 14x14) and then merged to obtain
 the final representations.
 
 ![Complete Network Architecture]({{site.baseurl}}/images/scatternet/dscatternet2.png "Network Architecture")
@@ -91,35 +91,34 @@ compared to space only containing the foreground manifold.*
 ##  Manifold Separation Techniques 
 
 This section details the two techniques engineered to discriminate between object of interest
-and background clutter using the deformed template learned by ABM.
+and background clutter using the deformed template learned by ABM. Manifold Separation is applied on the output of first layer of scatternet and two manifolds thus obtained are then separately passed to second layer of the scatternet. 
 
 ## Manifold separation using rectangular-intersection technique
 
-In this technique, a rectangular box is drawn around the deformed template by using the
-left-most, right-most and top-most and bottom-most non-zero pixel values in the deformed
-template. The deformed template is also dilated using a slightly large structuring element
-followed by hole-filling operation. And then only the pixel values where both the rectangular
-box and the modified template have non-zero values are taken to obtain the foreground object
-of interest.
+In this technique, a rectangular box is drawn around the deformed template (obtained by ABM corresponding to each image for training data. For the test data, the template matching is performed for each object class using the *common template* and the one that gives highest matching score is used to obtain deformed template)
+using the left-most, right-most and top-most and bottom-most non-zero pixel values in the deformed
+template. The deformed template is also dilated using a relatively large structuring element ( [Image Dilation](https://www.mathworks.com/help/images/ref/imdilate.html) )
+followed by hole-filling operation ([Filling Image Holes](https://www.mathworks.com/help/images/ref/imfill.html)). And then only the pixel values where both the rectangular
+box and the dilated-filled template have non-zero pixel values are taken to obtain the foreground object of interest.
 
 Below image depicts rectangular-intersection based manifold separation
 technique where each row (from left to right) consists of input image, Layer1 output for
-a specific orientation, deformed template, dilated and hole-filled versions, intersection of
-rectangular template with hole-filled version which finally extracts foreground object of
+a specific orientation, deformed template, dilated deformed template, dilated-hole-filled deformed template, rectangualar box, intersection of
+rectangular template with dilated-hole-filled version and finally the extracted foreground object of
 interest for the corresponding input image.
 
 ![Rectangular Manifold Separation]({{site.baseurl}}/images/scatternet/grid_rect_2.png "Rectangular Manifold Separation")
 
 ## Manifold separation using dilation-erosion technique
 
-The deformed template learned for the object of interest is first dilated followed by
-hole-filling operation and finally it is eroded to avoid including unnecessary clutter from
+Here, the deformed template obtained for the object of interest ( obtained by ABM corresponding to each image for training data. For the test data, the template matching is performed for each object class using the *common template* and the one that gives highest matching score is used to obtain deformed template) is first dilated [Image Dilation](https://www.mathworks.com/help/images/ref/imdilate.html) ) followed by
+hole-filling operation ([Filling Image Holes](https://www.mathworks.com/help/images/ref/imfill.html)) and finally it is eroded ([Image Erosion](https://www.mathworks.com/help/images/ref/imerode.html))to avoid including unnecessary clutter from
 background. The structuring elements and their values are set heuristically for both dilation
 and erosion operations.
 
-Below image depicts dilation-erosion based manifold separation technique
-where each row (from top to bottom) consists of dilated,hole-filled and eroded versions
-which are finally used to extract foreground objects of interest in the last row.
+Below image depicts dilation-erosion based manifold separation technique on a deformed template displayed in the first row. Next, each of the columns (from top to bottom) consists of dilated version of template followed by hole-filled version of dilated template followed by eroded version of the dilated-hole-filled template
+which are finally used to extract foreground objects of interest as displayed in the last row. 
+The structuring element used for dilation and erosion operation are different for each column. This signifies the effect of choosing the correct structing element and its impact on the manifold separation process. 
 
 ![Dilation-Erosion Manifold Separation]({{site.baseurl}}/images/scatternet/dilation-erosion.png "Dilation-Erosion Manifold Separation")
 
