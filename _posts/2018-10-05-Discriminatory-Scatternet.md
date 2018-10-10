@@ -6,17 +6,17 @@ title: Discriminatory Scatternet Framework For Object Classification
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/post.css" />
 In this article, I am going to talk about my UG thesis project. I have been pursuing ML since the 2nd year of college. I have taken several introductory and advanced courses, participated in online contests and organized workshops & contests for college fests. So, I decided to work on some ML problem as part of my thesis as well.
 
-I collaborated with [Amarjot Singh](https://www.linkedin.com/in/amarjot-singh-b5269815/) and [Prof. K. V. Kadambari](https://www.nitw.ac.in/department/cse/faculty/k/) and we decided to work on scattering networks. ScatterNets are a type of hand-engineered networks in computer vision.
+I collaborated with [Amarjot Singh](https://www.linkedin.com/in/amarjot-singh-b5269815/) and [Prof. K. V. Kadambari](https://www.nitw.ac.in/faculty/id/16335/) and we decided to work on scattering networks. ScatterNets are a type of hand-engineered networks in computer vision.
 Now, let me quickly introduce the problem domain.
 
 ## Introduction
 
 Object classification is the task of classifying images by extracting features from image data.
-The fundamental challenge for any such system lies within the simultaneous requirement of capacity to distinguish between similar looking image regions while being invariant to appearance-altering transformations.
+The fundamental challenge for any such system lies within the simultaneous requirement of the capacity to distinguish between similar looking image regions while being invariant to appearance-altering transformations.
 
 Despite the success of the deep networks(CNNs) in the domain, there remains a fundamental lack of
 understanding in the design and optimization of these networks which makes it difficult
-to develop them. Also, training of these networks requires large labeled datasets which in
+to develop them. Also, training of these networks require large labeled datasets which in
 numerous applications may not be available.
 
 In this work, we propose a hybrid semi-supervised architecture comprising of
@@ -26,9 +26,9 @@ a manifold separation technique and ScatterNet for Image Classification. The pri
 
 There are two parts of the system. Lets take a look at each of them separately.
 
-In the first stage, we learn templates for each object class which will be later used for separating the foreground object of interest and background clutter.
+In the first stage, we learn templates for each object class which will be used later for separating the foreground object of interest and background clutter.
 
-In the second stage of the network, a two-layer DTCWT scatternet is used. We filter the input at first layer of scatternet, then we apply manifold separation on this using the templates learned in first stage and further pass the filtered foreground and background manifolds to the second layer of scatternet. Finally, we merge the two manifolds after filtering them in the second layer. And the output from both the first layer and merged manifolds are passed to support vector machine for classification.
+In the second stage of the network, a two-layer DTCWT scatternet is used. We filter the input at first layer of scatternet, then we apply manifold separation on the output of first layer using the templates learned in previous stage and further pass the filtered foreground and background manifolds to the second layer of scatternet. Finally, we merge the two manifolds after filtering them in the second layer. And the output from both the first layer and merged manifolds are passed to support vector machine for classification.
 
 Illustration below shows the input image (x) of size 112 × 112. Image representations
 at m = 1 layer (first layer) are obtained using DTCWT filters at 4 scales and 6 orientations. Next the Manifold
@@ -40,11 +40,11 @@ the final representations.
 
 ## Stage 1 : Unsupervised Template Learning Using Active Basis Model(ABM)
 
-In this stage we feed the input image to an ABM which performs unsupervised
+In this stage, we feed the input image to an ABM which performs unsupervised
 template learning for foreground object using shared sketch algorithm. The algorithm works
 separately on each input class. The gabor wavelets are used for learning object templates.
 It stores the common templates for each class as well as the templates which are locally
-adjusted (called deformed templates) corresponding to each training image.
+adjusted (called **deformed templates**) corresponding to each training image.
 The below image is illustration of an active basis model.
 ![Active Basis Model Architecture]({{site.baseurl}}/images/scatternet/activebasis.jpg "Active Basis Model Architecture")
 
@@ -116,7 +116,7 @@ hole-filling operation ([Filling Image Holes](https://www.mathworks.com/help/ima
 background. The structuring elements and their values are set heuristically for both dilation
 and erosion operations.
 
-Below image depicts dilation-erosion based manifold separation technique on a deformed template displayed in the first row. Next, each of the columns (from top to bottom) consists of dilated version of template followed by hole-filled version of dilated template followed by eroded version of the dilated-hole-filled template
+Below image depicts dilation-erosion based manifold separation technique on a deformed template displayed in the first row. In second row, each of the columns (from top to bottom) consists of dilated version of template followed by hole-filled version of dilated template followed by eroded version of the dilated-hole-filled template
 which are finally used to extract foreground objects of interest as displayed in the last row. 
 The structuring element used for dilation and erosion operation are different for each column. This signifies the effect of choosing the correct structing element and its impact on the manifold separation process. 
 
@@ -132,5 +132,5 @@ by engineering a more rich feature space.
 
 ## Future Scope
 * One limitation here is that the template matching
-does not scale well for larger number of classes, For further extension of this work, we plan
+does not scale well for larger number of classes. For further extension of this work, we plan
 to engineer an architecture to overcome this limitation.
