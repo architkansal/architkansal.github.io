@@ -81,7 +81,7 @@ img:
 <span class="badge badge-success">CodeIgniter</span>
 <span class="badge badge-success">MVC Framework</span>
 <span class="badge badge-info">PHP</span>
-<!-- <a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
+<a href="{{ site.baseurl }}/projects/gap-portal"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a>
 </div>
 <hr class="fade-3-4">
 </div>
@@ -93,7 +93,7 @@ img:
 
 <div class="row">
 <div class="col-md-2 col-2">
-<img src="{{site.baseurl}}/images/scatternet/scatnet-tree.png" alt="Discriminatory Scatternet Framework">
+<img src="{{site.baseurl}}/images/scatternet/grid_rect_2.png" alt="Discriminatory Scatternet Framework">
 </div>
 <div class="col-md-10 col-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2017-2018</span>
@@ -104,7 +104,7 @@ img:
 <span class="badge badge-info">MATLAB</span>
 <span class="badge badge-info">Tensorflow</span>
 <br/>
-<!-- <a href="{{ site.baseurl }}/projects/scatternet"> <span class=" inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
+<a href="{{ site.baseurl }}/Discriminatory-Scatternet"> <span class=" inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a>
 </div>
 <hr class="fade-3-4">
 </div>
