@@ -18,7 +18,7 @@ img:
 <h4 class="uppercase" style="margin-top:auto; margin-bottom:auto;">Medisurf</h4>
 </div>
 <div class="col-md-8">
-<h5 >Android App & Web Analytics Portal For Optimized Medical Bills and More.
+<h5 >Android App & Web Analytics Portal for optimized medical bills and more.
 </h5>
 </div>
 <div class="col-md-4"></div>

@@ -18,7 +18,7 @@ img:
 <h4 class="uppercase" style="margin-top:auto; margin-bottom:auto;">Grievance Addressal Portal (GAP)</h4>
 </div>
 <div class="col-md-8">
-<h5 >Web Application For Registering, Monitoring and Tracking Complaints, Designed Specifically For NITW Internal Use-Cases.
+<h5 >Web Application for registering, monitoring and tracking complaints, designed specifically for NITW internal use-cases.
 </h5>
 </div>
 <div class="col-md-4"></div>

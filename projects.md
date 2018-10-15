@@ -65,7 +65,7 @@ img:
 <span class="badge badge-success">Windows Store App</span>
 <span class="badge badge-success">Visual Studio</span>
 <span class="badge badge-info">C#</span>
-<!-- <a href="{{ site.baseurl }}/projects/medisurf"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
+<a href="{{ site.baseurl }}/projects/myvision"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a>
 </div>
 <hr class="fade-3-4">
 </div>
@@ -121,7 +121,7 @@ img:
 <span class="badge badge-success">Active Learning</span>
 <span class="badge badge-info">Django</span>
 <span class="badge badge-info">Dedupe</span>
-<!-- <a href="{{ site.baseurl }}/projects/dedupe"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
+<a href="{{ site.baseurl }}/projects/dedupe"> <span class="inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a>
 </div>
 <hr class="fade-3-4">
 </div>
