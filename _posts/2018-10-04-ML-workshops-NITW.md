@@ -31,7 +31,7 @@ We organized three workshops as part of the series and covered a wide spectrum o
 
 ![ML Workshop Session]({{site.baseurl}}/images/ml4.png "ML Workshop Session")
 
-We organized a special coding session where we discussed 2017’s Goldman Sachs ML Challenge problem statement and built several solutions around it. The session was organized specifically to introduce how multiple algorithms can be used together, to demonstrate the importance of data cleaning and pre-processing and gathering useful insights by doing simple statistical analysis on the data. It was a very interesting problem statement and dataset I had encountered recently. We discussed how handling class imbalance and hyper-parameter tuning could affect the model performance among few other practical insights.
+We organized a special coding session where we discussed 2017’s Goldman Sachs GS-Quantify ML problem statement and built several solutions around it. The session was organized specifically to introduce how multiple algorithms can be used together, to demonstrate the importance of data cleaning and pre-processing and gathering useful insights by doing simple statistical analysis on the data. It was a very interesting problem statement and dataset I had encountered recently. We discussed how handling class imbalance and hyper-parameter tuning could affect the model performance among few other practical insights.
 
 Next, we organized Tz ML contest on kaggle which was open to public and allowed people to put the skills they had learnt to use. We saw good participations and innovative solutions to the problems.
 
@@ -39,6 +39,6 @@ Next, we organized Tz ML contest on kaggle which was open to public and allowed 
 
 We also later organized a deep learning session where we discussed CNNs, Auto-Encoders, RNNs, RBMs etc and focussed on some other projects we had been working on, to give our audience an idea of the kind of research work that goes on in the field. Around that time I was working on Discriminatory Scatternets for my UG thesis. You can read more about my work in [this blog post](https://architkansal.github.io/Discriminatory-Scatternet).
 
-Overall, I must say it was a thrilling experience for me. I learnt a lot out of these sessions and exercises both on the technical and non-technical fronts.
-
 ![ML Workshop Session]({{site.baseurl}}/images/ml2.jpg "ML Workshop Session")
+
+Overall, I must say it was an awesome experience for me. I learnt a lot out of these sessions and exercises both on the technical and non-technical fronts.
