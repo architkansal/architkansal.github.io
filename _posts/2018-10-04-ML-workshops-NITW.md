@@ -4,7 +4,7 @@ title: Machine Learning 101 - Workshops & More at NIT Warangal
 ---
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/post.css" />
-In my final year of Undergraduate studies, I wanted to start an active machine learning group in our college where like-minded people, would come together, ideate, learn and publish. Not that such groups were a radically new idea of mine, it had been attempted in past but couldn't sustain.
+In my final year of Undergraduate studies, I wanted to start an active machine learning group in our college where like-minded people would come together, ideate, learn and publish. Not that such groups were a radically new idea of mine, it had been attempted in past but couldn't sustain.
 
 When I asked around, to my surprise, I found that many people were interested in the idea and were enthusiastic to join the group. But they wanted to join the group to simply learn ML because of the lack of a sound understanding of the theoretical and applied knowledge of the subject. That's when I realised that almost everyone is talking about ML and AI and they are excited by the possibilities that it has to offer. People also have all sorts of ideas that they want to approach using ML, be it in the field of computer science, circuit design, biotechnology or mechanical engineering, but they lack the requisite knowledge to realise these ideas.
 
@@ -15,14 +15,14 @@ The team was formed!
 
 As enthusiastic as I was to deliver the sessions, Now came the hardest part - preparing the content for the first ever ML workshop for a diverse audience with varying knowledge of the pre-requisites in calculus, linear algebra and computer programming etc.
 
- Ashish, Protik and I decided to keep the content completely separate from the programming. Because Many first year students were still writing their first c++ program and many final year non-circuit specialization students had forgotten how to write a simple “hello world” program. That doesn’t mean that we didn’t encourage them to get their hands dirty and dive right in to understand the implementation challenges which are as intriguing as the theory backing it, But we kept the programming exercises optional for all.
+ Ashish, Protik and I decided to keep the content completely separate from the programming. Because Many first year students were still writing their first c++ program. That doesn’t mean that we didn’t encourage them to get their hands dirty and dive right in to understand the implementation challenges which are as intriguing as the theory backing it, But we kept the programming exercises optional for all.
 
 Preparation took-off on other fronts as well. Posters were designed and shared across platforms. Below is the poster we came up with for our workshops.
 
 ![ML Series Poster]({{site.baseurl}}/images/ml-series.jpg "ML Series Poster")
 
 
-About 360 people from different engineering specializations and courses such as B.Tech, M.Tech and MCA registered for the first workshop out of which 250 showed up.
+About 360 people from different engineering specializations and courses including B.Tech, M.Tech and MCA registered for the first workshop out of which 250 showed up.
 I was overwhelmed by the huge response we had received. The content delivery was a big challenge for addressing such a large audience but thanks to Ashish and Protik who filled in whenever I missed some point and also took over to suggest alternate views and helped in giving personalized support to the audience, we were able to manage well. The first workshop lasted for about 5 hours in 2 sessions, one before lunch 10-1 and next post lunch from 2-4. It was a huge success. This further motivated us to organize such sessions in future.
 
 ![ML Workshop Session]({{site.baseurl}}/images/ml3.jpg "ML Workshop Session")
