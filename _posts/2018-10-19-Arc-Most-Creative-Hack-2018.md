@@ -107,3 +107,7 @@ So, this was all about AXL that we developed for Arcesium Hackathon 2018. **this
 ![Hackathon]({{site.baseurl}}/images/hack.png "Hackathon")
 
 That’s it for now. All the best for your next hack!
+
+<p style="opacity: 0.75;">
+Collaborator : [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) 
+</p>
