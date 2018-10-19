@@ -24,7 +24,7 @@ img:
 </div>
 <div class="col-md-10 col-10">
 <span class="pull-right fade-1-4">&nbsp;&nbsp;&nbsp;2018</span>
-<h6 class="uppercase mb0">Domain Specific Language for Arcesium</h6>
+<h6 class="uppercase mb0">AXL - Arcesium eXpression Language (Domain Specific Language for Arcesium)</h6>
 <span class="badge badge-primary">Arcesium Hackathon-2018</span>
 <span class="badge badge-success">Language Processors</span>
 <span class="badge badge-success">DSL</span>
@@ -32,7 +32,7 @@ img:
 <span class="badge badge-info">Python</span>
 <span class="badge badge-info">AngularJS</span>
 <br/>
-<!-- <a href="{{ site.baseurl }}/projects/axl"> <span class=" inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a> -->
+<a href="{{ site.baseurl }}/Arc-Most-Creative-Hack-2018/"> <span class=" inline-block" style="font-weight:550; font-size:16px;"> READ MORE </span> </a>
 </div>
 <hr class="fade-3-4">
 </div>
