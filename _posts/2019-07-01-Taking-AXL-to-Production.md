@@ -4,12 +4,11 @@ title: Taking AXL to Production - Season of Code 2019 at Arcesium
 ---
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/post.css" />
+Recently, Arcesium organized its global Season of Code (SOC) event for the year 2019. I decided to use this opportunity to make AXL (our [most-creative-hack winner project from Hackathon-2018]({{site.baseurl}}/Arc-Most-Creative-Hack-2018/)) production ready and collaborated with [Ram Chidambaram](https://www.linkedin.com/in/ramachandran-chidambaram-170071141/),  and [Dhiraj Bhakta](https://www.linkedin.com/in/dhiraj-bhakta-065529113/) to accomplish this.
 
-Recently, Arcesium organized its global Season of Code (SOC) event for the year 2019. I decided to use this opportunity to make AXL (our [most-creative-hack winner project from Hackathon-2018](https://architkansal.github.io/Arc-Most-Creative-Hack-2018/)) production ready and collaborated with  [Ram Chidambaram](https://www.linkedin.com/in/ramachandran-chidambaram-170071141/),  and [Dhiraj Bhakta](https://www.linkedin.com/in/dhiraj-bhakta-065529113/) to accomplish this.
+First blog in the series (Introduction to AXL) : [How we built AXL]({{site.baseurl}}/Arc-Most-Creative-Hack-2018/)
 
-First blog in the series (introduction to AXL) : [How we built AXL](https://architkansal.github.io/Arc-Most-Creative-Hack-2018/)
-
-### How SOC Works:
+## How SOC Works:
 
 SOC provides people the opportunity to work on a project of their choice. It aims at building production-ready, brand-new features into the Arcesium platform offering or projects for efficiency and internal usage. Unlike Hackathons, SOC participants are expected to write production-ready code.
 
@@ -30,11 +29,11 @@ Few other Items in our to-do list were error-handling and fully functional minim
 
 We added support for robust, graceful, efficient and useful handling and reporting for both syntactical errors and runtime errors in AXL. Here is a list of a few cases that we handled:
 
-Syntax errors with line number information: We were able to provide correct information in a lot of cases but for few cases the line information was wrong by 1-2 lines. It's not always possible to provide the correct line number with error because the way we look at the code isn’t how system parses it and the two could vary. 
-Reporting conflicting definitions for reusable components: AXL natively supports defining and re-using (by importing) components or using components from standard library. This brings the possibility of having multiple definitions for the same component, which needs to be resolved by the user.
-Context/Data does not exist or support the operation: AXL works on an input context which could be user-specified or inferred. The possibility of unsupported operations, accessing non-existent data in a context needed to be gracefully handled and reported.
-Gracefully ignore few specific types of errors: Depending on the use-case, we decide to either exit the execution or continue with a warning.
-Invalid Input data: AXL expects input to be valid JSON data and cannot execute otherwise. Similarly, if other optional inputs are provided, then necessary validations are performed on those as well.
+* **Syntax errors with line number information**: We were able to provide correct information in a lot of cases but for few cases the line information was wrong by 1-2 lines. It's not always possible to provide the correct line number with error because the way we look at the code isn’t how system parses it.
+* **Reporting conflicting definitions for reusable components**: AXL natively supports defining and re-using (by importing) components or using components from standard library. This brings the possibility of having multiple definitions for the same component, which needs to be resolved by the user.
+* **Context/Data does not exist or support the operation**: AXL works on an input context which could be user-specified or inferred. The possibility of unsupported operations, accessing non-existent data in a context needed to be gracefully handled and reported.
+* **Gracefully ignore few specific types of errors**: Depending on the use-case, we decide to either exit the execution or continue with a warning.
+* **Invalid Input data**: AXL expects input to be valid JSON data and cannot execute otherwise. Similarly, if other optional inputs are provided, then necessary validations are performed on those as well.
 
 ## The AXL IDE:
 
@@ -45,13 +44,13 @@ We implemented the web-based AXL IDE using Java backend and React frontend.
 
 An IDE can provide a lot of different features to users. We kept the features in AXL IDE very minimal because it had to be completed within the contest duration. Here is the list of features we thought were necessary in AXL IDE:
 
-Code editor - we used ACE editor (React Component) for this
-Input area with placeholder inputs
-Ability to check for syntactical errors
-Ability to execute and navigate through the output (or runtime errors, if any)
-Ability to save AXL code
-Ability to publish AXL code (this is necessary to make the code available for deployment)
-Minimal version control (ability to checkout a previous version of AXL code)
+* Code editor - we used ACE editor (React Component) for this
+* Input area with placeholder inputs
+* Ability to check for syntactical errors
+* Ability to execute and navigate through the output (or runtime errors, if any)
+* Ability to save AXL code
+* Ability to publish AXL code (this is necessary to make the code available for deployment)
+* Minimal version control (ability to checkout a previous version of AXL code)
 
 ## AXL in Motion - Arcesium Margin-Replication Use-Case:
 
@@ -67,14 +66,14 @@ A lot of these features are supported by AXL language and the web-based IDE. Now
 
 Here are the high level stats collected from above exercise:
 
-* Code size in AXL - ~80 Lines vs. code size in programming language - ~1000 Lines.
-* Execution time - no impact
-* Execution output - consistent with expected production output
-* Time to write AXL code - ~4 hours vs. a few days in programming language
-* Other parameters which significantly improved by using AXL which cannot be directly translated into numbers:
-* End-user accessibility
-* Logic transparency
-* Ease of maintenance
+* **Code size in AXL** - ~80 Lines vs. code size in programming language - ~1000 Lines.
+* **Execution time** - no impact
+* **Execution output** - consistent with expected production output
+* **Time to write AXL code** - ~4 hours vs. a few days in programming language
+* **Few other parameters** which significantly improved by using AXL which cannot be directly translated into numbers include 
+    * End-user accessibility 
+    * Logic transparency
+    * Ease of maintenance
 
 ## Next Steps:
 

@@ -37,7 +37,7 @@ Next, we organized Tz ML contest on kaggle which was open to public and allowed 
 
 ![ML TZ Session]({{site.baseurl}}/images/tz-ml.jpg "ML TZ Session")
 
-We also later organized a deep learning session where we discussed CNNs, Auto-Encoders, RNNs, RBMs etc and focussed on some other projects we had been working on, to give our audience an idea of the kind of research work that goes on in the field. Around that time I was working on Discriminatory Scatternets for my UG thesis. You can read more about my work in [this blog post](https://architkansal.github.io/Discriminatory-Scatternet).
+We also later organized a deep learning session where we discussed CNNs, Auto-Encoders, RNNs, RBMs etc and focussed on some other projects we had been working on, to give our audience an idea of the kind of research work that goes on in the field. Around that time I was working on Discriminatory Scatternets for my UG thesis. You can read more about my work in [this blog post]({{site.baseurl}}/Discriminatory-Scatternet).
 
 ![ML Workshop Session]({{site.baseurl}}/images/ml2.jpg "ML Workshop Session")
 
