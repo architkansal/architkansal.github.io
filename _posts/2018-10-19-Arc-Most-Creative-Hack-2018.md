@@ -108,7 +108,7 @@ So, this was all about AXL that we developed for Arcesium Hackathon 2018. **this
 
 That’s it for now. All the best for your next hack!
 
-## Update : 1st July 2019!
+## Update : 1st July 2019
 
 We worked on taking AXL to production as part of Season of Code 2019 at Arcesium. You can read about it [here](https://architkansal.github.io/Taking-AXL-to-Production/).
 

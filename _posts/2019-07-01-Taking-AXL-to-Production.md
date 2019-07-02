@@ -8,7 +8,7 @@ Recently, Arcesium organized its global Season of Code (SOC) event for the year 
 
 First blog in the series : [Introduction to AXL](https://architkansal.github.io/Arc-Most-Creative-Hack-2018/)
 
-## How SOC Works:
+## How SOC Works
 
 SOC provides people the opportunity to work on a project of their choice. It aims at building production-ready, brand-new features into the Arcesium platform offering or projects for efficiency and internal usage. Unlike Hackathons, SOC participants are expected to write production-ready code.
 
@@ -16,16 +16,16 @@ SOC takes off with an Idea Pitching session where each team presents their ideas
 
 This year, 11 teams pitched their ideas and 7 were shortlisted for the implementation round.
 
-## The Idea Pitching Session:
+## The Idea Pitching Session
 
 Excited by the possibilities that AXL has to offer, we targeted integrating AXL into margin-replication infrastructure at Arcesium where the idea of AXL was born in the first place!
 
 
 Few other items in our to-do list were error-handling and fully functional minimal online IDE integrated into the Arcesium platform for developing, testing, running and publishing AXL code.
 
-## The SOC Implementation:
+## The SOC Implementation
 
-## Error Handling in AXL:
+## Error Handling in AXL
 
 We added support for robust, graceful, efficient and useful handling and reporting for both syntactical as well as runtime errors in AXL. Here is a list of a few cases that we handled:
 
@@ -35,7 +35,7 @@ We added support for robust, graceful, efficient and useful handling and reporti
 * **Gracefully ignore few specific types of errors**: Depending on the use-case, we decide to either exit the execution or continue with a warning.
 * **Invalid Input data**: AXL expects input to be valid JSON data and cannot execute otherwise. Similarly, if other optional inputs are provided, then necessary validations are performed on those as well.
 
-## The AXL IDE:
+## The AXL IDE
 
 One of the necessary tools for any programming language is a good development and testing framework. We built a web-based Integrated Development Environment (IDE) for AXL on the Arcesium platform for this. 
 
@@ -52,7 +52,7 @@ An IDE can provide a lot of different features to users. We kept the features in
 * Ability to publish AXL code (this is necessary to make the code available for deployment)
 * Minimal version control (ability to checkout a previous version of AXL code)
 
-## AXL in Motion - Arcesium Margin-Replication Use-Case:
+## The AXL Impact - Arcesium Margin-Replication Use Case
 
 A few benefits that AXL provides:
 
@@ -69,15 +69,15 @@ Here are the high level stats collected from above exercise:
 * **Code size in AXL** - ~80 Lines vs. code size in programming language - ~1000 Lines.
 * **Execution time** - no impact
 * **Execution output** - consistent with expected production output
-* **Time to write AXL code** - ~4 hours vs. a few days in programming language
+* **Time to write AXL code** - ~4 hours vs. several days in programming language
 * **Few other parameters** which significantly improved by using AXL but cannot be directly translated into numbers include 
     * End-user accessibility 
     * Logic transparency
     * Ease of maintenance
 
-**Our project stood 2nd place and got us a OnePlus 7 Pro each!**
+**Our project won 2nd place and got us a OnePlus 7 Pro each!**
 
-## Next Steps:
+## Next Steps
 
 As a next step, we could build support for more operations in AXL, add new features into AXL IDE or explore integrating AXL into other applications and products at Arcesium. I am really excited to see how this project evolves with time! 
 
