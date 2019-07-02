@@ -4,9 +4,9 @@ title: Taking AXL to Production - Season of Code 2019 at Arcesium
 ---
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/post.css" />
-Recently, Arcesium organized its global Season of Code (SOC) event for the year 2019. I decided to use this opportunity to make AXL (our [most-creative-hack winner project from Hackathon-2018]({{site.baseurl}}/Arc-Most-Creative-Hack-2018/)) production ready and collaborated with [Ram Chidambaram](https://www.linkedin.com/in/ramachandran-chidambaram-170071141/),  and [Dhiraj Bhakta](https://www.linkedin.com/in/dhiraj-bhakta-065529113/) to accomplish this.
+Recently, Arcesium organized its global Season of Code (SOC) event for the year 2019. I decided to use this opportunity to make AXL (our [most-creative-hack winner project from Hackathon-2018](https://architkansal.github.io/Arc-Most-Creative-Hack-2018/)) production ready and collaborated with [Ram Chidambaram](https://www.linkedin.com/in/ramachandran-chidambaram-170071141/) and [Dhiraj Bhakta](https://www.linkedin.com/in/dhiraj-bhakta-065529113/) to accomplish this.
 
-First blog in the series (Introduction to AXL) : [How we built AXL]({{site.baseurl}}/Arc-Most-Creative-Hack-2018/)
+First blog in the series : [Introduction to AXL](https://architkansal.github.io/Arc-Most-Creative-Hack-2018/)
 
 ## How SOC Works:
 
@@ -21,13 +21,13 @@ This year, 11 teams pitched their ideas and 7 were shortlisted for the implement
 Excited by the possibilities that AXL has to offer, we targeted integrating AXL into margin-replication infrastructure at Arcesium where the idea of AXL was born in the first place!
 
 
-Few other Items in our to-do list were error-handling and fully functional minimal online IDE integrated into the Arcesium platform for developing, testing, running and publishing AXL code.
+Few other items in our to-do list were error-handling and fully functional minimal online IDE integrated into the Arcesium platform for developing, testing, running and publishing AXL code.
 
 ## The SOC Implementation:
 
 ## Error Handling in AXL:
 
-We added support for robust, graceful, efficient and useful handling and reporting for both syntactical errors and runtime errors in AXL. Here is a list of a few cases that we handled:
+We added support for robust, graceful, efficient and useful handling and reporting for both syntactical as well as runtime errors in AXL. Here is a list of a few cases that we handled:
 
 * **Syntax errors with line number information**: We were able to provide correct information in a lot of cases but for few cases the line information was wrong by 1-2 lines. It's not always possible to provide the correct line number with error because the way we look at the code isn’t how system parses it.
 * **Reporting conflicting definitions for reusable components**: AXL natively supports defining and re-using (by importing) components or using components from standard library. This brings the possibility of having multiple definitions for the same component, which needs to be resolved by the user.
@@ -70,14 +70,15 @@ Here are the high level stats collected from above exercise:
 * **Execution time** - no impact
 * **Execution output** - consistent with expected production output
 * **Time to write AXL code** - ~4 hours vs. a few days in programming language
-* **Few other parameters** which significantly improved by using AXL which cannot be directly translated into numbers include 
+* **Few other parameters** which significantly improved by using AXL but cannot be directly translated into numbers include 
     * End-user accessibility 
     * Logic transparency
     * Ease of maintenance
+
+**Our project stood 2nd place and got us a OnePlus 7 Pro each!**
 
 ## Next Steps:
 
 As a next step, we could build support for more operations in AXL, add new features into AXL IDE or explore integrating AXL into other applications and products at Arcesium. I am really excited to see how this project evolves with time! 
 
-That’s it for now. All the best for your next project!
 

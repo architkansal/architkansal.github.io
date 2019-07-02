@@ -110,7 +110,7 @@ That’s it for now. All the best for your next hack!
 
 ## Update : 1st July 2019!
 
-We worked on taking AXL to production as part of Season of Code 2019 at Arcesium. You can read about it [here]({{site.baseurl}}/Taking-AXL-to-Production/).
+We worked on taking AXL to production as part of Season of Code 2019 at Arcesium. You can read about it [here](https://architkansal.github.io/Taking-AXL-to-Production/).
 
 <p style="opacity: 0.75;">
 Collaborator : [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) 
