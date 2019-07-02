@@ -6,7 +6,9 @@ title: Taking AXL to Production - Season of Code 2019 at Arcesium
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/post.css" />
 Recently, Arcesium organized its global Season of Code (SOC) event for the year 2019. I decided to use this opportunity to make AXL (our [most-creative-hack winner project from Hackathon-2018](https://architkansal.github.io/Arc-Most-Creative-Hack-2018/)) production ready and collaborated with [Ram Chidambaram](https://www.linkedin.com/in/ramachandran-chidambaram-170071141/) and [Dhiraj Bhakta](https://www.linkedin.com/in/dhiraj-bhakta-065529113/) to accomplish this.
 
-First blog in the series : [Introduction to AXL](https://architkansal.github.io/Arc-Most-Creative-Hack-2018/)
+## What is AXL?
+
+**AXL** (**A**rcesium e**X**pression **L**anguage) is a context-sensitive, domain specific language which we built at Arcesium. You can read more about AXL here : [Introduction to AXL](https://architkansal.github.io/Arc-Most-Creative-Hack-2018/)
 
 ## How SOC Works
 
