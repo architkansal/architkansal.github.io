@@ -22,6 +22,19 @@ img:
 <h4 class="uppercase mb40 mb-xs-24"> Work Experience</h4>
 <div class="row">
 <div class="col-md-2 col-2">
+<br/>
+<img src="{{site.baseurl}}/images/google.png" alt="Google">
+</div>
+<div class="col-md-10 col-10">
+<span class="pull-right fade-1-4">2019</span>
+<h6 class="uppercase mb0">Google India</h6>
+<span class="fade-half inline-block mb24">Software Engineer</span>
+</div>
+<hr class="fade-3-4">
+</div>
+
+<div class="row">
+<div class="col-md-2 col-2">
 <img src="{{site.baseurl}}/images/arcesium.png" alt="Arcesium India">
 </div>
 <div class="col-md-10 col-10">
